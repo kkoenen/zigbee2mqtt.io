@@ -20,6 +20,7 @@ Most of the time this is caused by Zigbee2MQTT not being able to communicate wit
    a [more powerful adapter](../adapters/README.md).
 3. Your adapter requires additional configuration parameters. Check [supported Adapters](../adapters/README.md) section to find out if your adapter requires extra parameters (eg. ConBee II / RaspBee II).
 4. Home Assistant's "Zigbee Home Automation" (ZHA) integration is enabled. Try to disable the ZHA integration and restart the Zigbee2MQTT add-on.
+5. Try adding "adapter: ezsp" to the configuration (in the config of Zigbee2MQTT, under serial).
 
 ## Verify that you put the correct port in configuration.yaml
 
